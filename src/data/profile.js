@@ -10,7 +10,7 @@ export const profile = {
       'https://drive.google.com/file/d/16V5ApAMztDbtnqLbG_hbM1XqyytAFIUO/view?usp=sharing',
   },
   tagline:
-    'Developer building responsive web experiences with a love for motion, typography, and interaction design.',
+    'Developer focused on building full-stack web applications using modern technologies while continuously improving problem-solving and development skills.',
   // about: [
   //   `I’m a B.Tech CS student who enjoys crafting clean, interactive frontends and shipping practical products.`,
   //   `I’m drawn to brutalist clarity + futuristic polish: strong grids, bold type, and micro-interactions that communicate hierarchy.`,

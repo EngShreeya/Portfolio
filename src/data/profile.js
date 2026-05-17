@@ -2,19 +2,28 @@ export const profile = {
   name: 'Shreeya Agarwal',
   location: 'Delhi',
   email: 'shreeya.agarwal.2005@gmail.com',
+  phone: '+91 7505213974',
   links: {
     linkedin: 'https://www.linkedin.com/in/shreeya-agarwal-frontend/',
     github: 'https://github.com/EngShreeya',
+    resume:
+      'https://drive.google.com/file/d/16V5ApAMztDbtnqLbG_hbM1XqyytAFIUO/view?usp=sharing',
   },
   tagline:
     'Developer building responsive web experiences with a love for motion, typography, and interaction design.',
+  // about: [
+  //   `I’m a B.Tech CS student who enjoys crafting clean, interactive frontends and shipping practical products.`,
+  //   `I’m drawn to brutalist clarity + futuristic polish: strong grids, bold type, and micro-interactions that communicate hierarchy.`,
+  // ]
   about: [
-    `I’m a B.Tech CS student who enjoys crafting clean, interactive frontends and shipping practical products.`,
-    `I’m drawn to brutalist clarity + futuristic polish: strong grids, bold type, and micro-interactions that communicate hierarchy.`,
-  ],
+  `I’m a B.Tech Computer Science student focused on full-stack development, modern web technologies, and building impactful digital experiences.`,
+
+  `I enjoy creating responsive user interfaces, scalable backend systems, and practical real-world applications using modern development tools and frameworks. I’m passionate about combining clean design, smooth interactions, and efficient functionality to build products people genuinely enjoy using.`,
+],
   highlights: [
     { label: 'B.Tech CS (AKTU)', value: 'ABES Engineering College • 2023–2027 • CGPA 8.15' },
     { label: 'Dataverse', value: 'Joint Secretary • Sept 2024–Present' },
+    // { label: 'Focus', value: 'React, UI engineering, motion design' },
     { label: 'Focus', value: 'React, UI engineering, motion design' },
   ],
   skills: {
@@ -30,12 +39,13 @@ export const profile = {
         ],
       },
       {
-        key: 'languages',
-        label: 'Languages',
+        key: 'backend',
+        label: 'Backend',
         items: [
-          { name: 'Java', level: 72 },
-          { name: 'C', level: 60 },
-          { name: 'C++ (basic)', level: 45 },
+          { name: 'Node.js', level: 70 },
+          { name: 'Express.js', level: 68 },
+          { name: 'MongoDB', level: 65 },
+          { name: 'REST APIs', level: 72 },
         ],
       },
       {
@@ -51,21 +61,49 @@ export const profile = {
     marquee: [
       'React',
       'JavaScript',
-      'UI Engineering',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'MERN',
+      'REST APIs',
+      'Backend Development',
       'Framer Motion',
       'Tailwind',
       'GitHub',
       'Accessibility',
       'Performance',
-      'Interaction Design',
-      'Brutalist',
-      'Futuristic',
     ],
   },
   projects: [
     {
+      title: 'Jobify',
+      period: '2026',
+      featured: true,
+      premium: true,
+      description:
+        'Built a modern full-stack job portal platform enabling users to browse jobs, manage applications, and interact through a responsive interface.',
+      stack: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
+      hrefs: {
+        live: '',
+        github: 'https://github.com/EngShreeya/Jobify',
+      },
+    },
+    {
+      title: 'College Placement Management System',
+      period: '2025',
+      featured: true,
+      description:
+        'Built a web-based placement management system to streamline student registrations, company hiring workflows, and placement tracking through an organized and responsive interface.',
+      stack: ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+      hrefs: {
+        live: '',
+        github: 'https://github.com/EngShreeya/College_Placement_Mngmt',
+      },
+    },
+    {
       title: 'Movie Vault',
       period: '2025',
+      featured: true,
       description:
         'A modern movie discovery and management web application with search, filtering, and favorites functionality.',
       stack: ['React', 'JavaScript', 'Tailwind', 'TMDB API'],
